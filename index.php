@@ -20,7 +20,7 @@
             
      
       
-            $password = ''; 
+            $password = 'Aaa1b65@ElAAASSss'; 
 
             boud\checkPassword($password);
 
