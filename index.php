@@ -14,19 +14,32 @@
     </head>
     <body>
 
-        <div class="container">
-            
+        <div class="container  p-3">
+
+
+        <form method="GET">
+        <input name="value"   placeholder="Saisissez un mdp" type="text">
+        <button class="bg-primary" type="submit">Valider</button>
+        </form>
+          
+
+
+
             <?php
-            
-     
-      
-            $password = 'Aaa1b65@ElAAASSss'; 
+        
+            $password = 'rera1aaA1b'; 
 
             boud\checkPassword($password);
 
-          
-
             ?>
+            
+            <div  class="d-flex p-3 flex-column justify-content-around">
+
+
+
+            </div>
+
+          
         </div>
 
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
