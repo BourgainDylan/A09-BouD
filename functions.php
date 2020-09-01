@@ -64,8 +64,6 @@ function checkPassword($password){
     if( $progressBar !==100){
   
         echo'<li class=" bg-primary list-group-item">le Mot de passe doit contenir au moins:</li>';
-        echo' <div class="d-flex justify-content-center">';
-        echo'  <ul class="list-group w-100">';
         echo' '.$maj.'';
         echo' '.$min.'';
         echo' '.$num.'';
