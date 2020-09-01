@@ -2,16 +2,13 @@
 
 namespace boud;
 
-
-
 function checkPassword($password){
-    $password = $_GET['value'] ;
+
     $maj='';
     $min='';
     $num='';
     $char12='';
     $spechar='';
-        
     $progressBar =100;
 
     echo' <div class="d-flex justify-content-center">';
@@ -115,11 +112,11 @@ function checkPassword($password){
 
 
 
-    echo' <h2 class="text-info">Mot de passe :  '.$password.'</h2>';
+    echo' <h3 class="text-info">Mot de passe :  '.$password.'</h3>';
     echo'<div class="progress">';
     echo'<div class="progress-bar '.$colorProgressBar.' " role="progressbar" style="width:'.$progressBar.'%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>';
     echo'</div>';
-    echo'<H4 class="text-right">Force du mdp</H4>';
+    echo'<h3 class="text-right">Force du mdp</h3>';
 
 
     }

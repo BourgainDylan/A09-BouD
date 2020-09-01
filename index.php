@@ -23,14 +23,15 @@
         </form>
           
 
-
-
             <?php
         
-            $password = 'rera1aaA1b'; 
+            if(isset($_GET['value'])){
 
+            $password = $_GET['value'];
             boud\checkPassword($password);
 
+            }
+            
             ?>
             
             <div  class="d-flex p-3 flex-column justify-content-around">
