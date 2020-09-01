@@ -2,7 +2,12 @@
 
 namespace boud;
 
+
+/**
+ */
 function checkPassword($password){
+
+
 
     $maj='';
     $min='';
