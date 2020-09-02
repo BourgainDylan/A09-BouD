@@ -4,6 +4,11 @@ namespace boud;
 
 
 /**
+ * 
+ * Fonction permettant de vérifier la force d'un mot de passe
+ * 
+ * @param string $password une chaine de caractères à tester
+ * @return void
  */
 function checkPassword($password){
 
