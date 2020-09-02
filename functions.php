@@ -10,7 +10,7 @@ namespace boud;
  * @param string $password une chaine de caractères à tester
  * @return void
  */
-function checkPassword(string $password){
+function checkPassword($password){
 
 
 
