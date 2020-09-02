@@ -28,7 +28,7 @@
         //   if(isset ($_GET['value'])){
             // $password =$_GET['value'];
 
-            $password ="";
+                $password ="";
             boud\checkPassword($password);
 
 
