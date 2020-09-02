@@ -17,23 +17,14 @@
         <div class="container  p-3">
 
 
-        <form method="GET">
-        <input name="value"   placeholder="Saisissez un mdp" type="text">
-        <button class="bg-primary" type="submit">Valider</button>
-        </form>
-          
-
+    
             <?php
-        
-          if(isset ($_GET['value'])){
-
-            $password = $_GET['value'];
+     
+            $password='';
 
             boud\checkPassword($password);
 
-        }
         
-            
             ?>
             
             <div  class="d-flex p-3 flex-column justify-content-around">
