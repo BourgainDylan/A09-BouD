@@ -57,7 +57,7 @@ function checkPassword($password){
     
     
     
-    if (!preg_match('#[&@^$+"è_]#', "$password")) {
+    if (!preg_match('#[&@^$+*"è_]#', "$password")) {
         
         $progressBar -= 20;
         $spechar='<li class="list-group-item">le mot ne contient pas de  specialChar</li>';
