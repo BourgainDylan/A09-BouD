@@ -97,12 +97,12 @@ function checkPassword($password){
     }
 
     if($progressBar == 40){
-        $colorProgressBar ="bg-success";
+        $colorProgressBar ="bg-info";
     }
 
 
     if($progressBar == 60){
-        $colorProgressBar ="bg-warning";
+        $colorProgressBar ="bg-secondary";
     }
 
     if($progressBar == 80){

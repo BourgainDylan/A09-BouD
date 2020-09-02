@@ -25,13 +25,14 @@
 
             <?php
         
-          
+          if(isset ($_GET['value'])){
 
             $password = $_GET['value'];
 
-        
             boud\checkPassword($password);
 
+        }
+        
             
             ?>
             
